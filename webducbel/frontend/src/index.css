@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #004c22;
+  --color-primary-container: #166534;
+  --color-primary-hover: #14532D;
+  --color-primary-soft: #DCFCE7;
+  --color-page-bg: #FFFBF2;
+  --color-surface: #FFFFFF;
+  --color-on-surface: #121c2a;
+  --color-on-surface-variant: #404940;
+  --color-text-muted: #4B5563;
+  --color-border-subtle: #D1D5DB;
+  --color-secondary: #795900;
+  --color-secondary-container: #ffc329;
+  --color-secondary-fixed: #ffdf9f;
+  --color-danger: #B91C1C;
+  --color-info: #1D4ED8;
+  --font-sans: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+  background-color: var(--color-page-bg, #FFFBF2);
+  color: var(--color-on-surface, #121c2a);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  min-height: 100vh;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+

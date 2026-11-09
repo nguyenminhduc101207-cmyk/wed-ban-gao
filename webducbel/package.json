@@ -1,0 +1,20 @@
+{
+  "name": "gao-nha-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start:backend": "npm --workspace=backend run start:dev",
+    "start:frontend": "npm --workspace=frontend run dev",
+    "build:backend": "npm --workspace=backend run build",
+    "build:frontend": "npm --workspace=frontend run build",
+    "build": "npm --workspace=backend run build && npm --workspace=frontend run build",
+    "seed": "npm --workspace=backend run seed"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}

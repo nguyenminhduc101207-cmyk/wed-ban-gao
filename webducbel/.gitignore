@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+.env.admin
+admin_credentials.local.json
+*.log
+
