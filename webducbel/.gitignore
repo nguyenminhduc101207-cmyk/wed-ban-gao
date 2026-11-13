@@ -7,3 +7,8 @@ dist
 admin_credentials.local.json
 *.log
 
+*.tsbuildinfo
+dist
+.env
+*.local.local.json
+*.local.Json
